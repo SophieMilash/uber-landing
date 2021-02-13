@@ -1,0 +1,77 @@
+.mobile-app {
+    width: 100%;
+    padding: 45px 0 80px;
+
+    background: url('../../img/bg/mobile_bg.png') center center/cover no-repeat;
+}
+
+.table {
+    width: 320px;
+    height: 280px;
+    margin: 20px auto;
+    padding: 80px 12px 34px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.table__img_number_one {
+    background: url('../../img/app/app_1.jpg') center center/cover no-repeat;
+}
+
+.table__img_number_two {
+    background: url('../../img/app/app_2.jpg') center center/cover no-repeat;
+}
+
+.table__img_number_three {
+    background: url('../../img/app/app_3.jpg') center center/cover no-repeat;
+}
+
+.table__img_number_four {
+    background: url('../../img/app/app_4.jpg') center center/cover no-repeat;
+}
+
+.table__img_number_five {
+    background: url('../../img/app/app_5.jpg') center center/cover no-repeat;
+}
+
+.table__img_number_six {
+    background: url('../../img/app/app_6.jpg') center center/cover no-repeat;
+}
+
+.table__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #fff;
+}
+
+.table__btn {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    background-color: #000;
+
+    transition: .2s all;
+}
+
+.table__plus {
+    width: 14px;
+    height: 14px;
+}
+
+.table__btn:hover {
+    transform: scale(1.2);
+}

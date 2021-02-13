@@ -1,0 +1,45 @@
+.reasons {
+    padding: 20px 0 65px;
+}
+
+.cards {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.cards__round {
+    width: 116px;
+    height: 116px;
+    margin-right: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    background-color: #1eacc7;
+}
+
+.cards__description {
+    width: 371px;
+    height: 150px;
+}
+
+.cards__title {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.cards__text {
+    margin: 0;
+    
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+}

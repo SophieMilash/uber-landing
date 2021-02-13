@@ -1,0 +1,151 @@
+.footer {
+    width: 100%;
+    min-height: 135px;
+    padding: 10px 20px 30px;
+}
+
+.footer__divider {
+    width: 300px;
+    height: 4px;
+    margin: 0 auto;
+
+    background-color: #1fbad6;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-top: 30px;
+}
+
+.footer__wrap {
+    width: 33%;
+}
+
+.footer__wrap:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__social-icons {
+    width: 160px;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.footer__social-icon {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #070716;
+    border-radius: 100%;
+
+    text-decoration: none;
+
+    transition: .2s all;
+}
+
+.footer__social-icon:hover {
+    transform: scale(1.2);
+}
+
+.icon {
+    color: #fff;
+}
+
+.footer__nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__menu {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.footer__menu-link {
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #070716;
+
+    transition: color .2s linear;
+}
+
+.footer__menu_sec {
+    padding: 0;
+    margin: 10px 0 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.footer__link {
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #999;
+
+    transition: color .2s linear;
+}
+
+.footer__language-link {
+    display: block;
+    margin: 50px auto 0;
+    padding: 0;
+
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #1fbad6;
+
+    transition: color .2s linear;
+}
+
+.footer__mobile-icons {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.footer__mobile-icon {
+    width: 94px;
+    height: 27px;
+
+    transition: .2s all;
+}
+
+.footer__mobile-icon:hover {
+    transform: scale(1.1);
+}

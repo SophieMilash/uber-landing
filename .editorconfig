@@ -1,0 +1,36 @@
+# top-most EditorConfig file
+# Корневой файл EditorConfig
+root = true
+
+# Unix-style newlines with a newline ending every file
+# Для всех файлов используем unix-совместимые переносы строк
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,py}]
+charset = utf-8
+
+# отступы в 4 пробела
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Tab indentation (no size specified)
+# Используем табы для отступов (Не указываем размер)
+[*.js]
+indent_style = tab
+
+# Indentation override for all JS under lib directory
+# Перезависываем настройку отступов для js файлов в папке lib
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# Matches the exact files either package.json or .travis.yml
+# Только для файлов package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
